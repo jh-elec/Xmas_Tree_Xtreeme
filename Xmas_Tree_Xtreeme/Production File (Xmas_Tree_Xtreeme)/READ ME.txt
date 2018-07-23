@@ -1,0 +1,40 @@
+######################################
+#				     #
+# Projekt: 	XMAS_TREE_XTREEME    #
+# Datum: 	28.10.2014           #
+# Copyright:	made by Hm & Wl      #
+#			             #
+#####################################################################################################################
+#
+#   Anforderungen: 
+#
+#			- Ausreichende Betriebsspannung ( min 3,5 VDC Akkuspannung )
+#			- Einen "AVR ISP MK2" Programmieradapter
+#	 
+#
+#
+# - X_MAS_TREE_EXTREEME_Programming.bat: Dient zum einfachen programmieren der CPU ( MEGA32 ).
+#					 Hierbei werden alle Fuses schon gesetzt, es muss sich um nichts gekümmert werden.
+#					 Durch öffnen der .bat Datei wird die CPU programmiert.					
+#
+# - STK500 Ordner: Dort muss für dieses Projekt nichts weiter eingestellt werden. DATEIEN BITTE NICHT BEARBEITEN
+#
+#
+#
+#			/* FUSE REGISTER ( High Byte: 0xD9, Low Byte: 0xFF ) */
+#
+#					 OCDEN     = DISABLE 				   
+#					 JTAGEN    = DISABLE 				   
+#					 SPIEN     = ENABLE  				   
+#					 CKOPT     = DISABLE 				   
+#					 EESAVE    = DISABLE 				   
+#					 BOORSZ    = 2048_3800 			   
+#					 BOOTRST   = DISABLE   			   
+#					 BODLEVEL  = 2V7       			   
+#					 BODEN	   = DISABLE     			   
+#					 SUT_CKSEL = EXTHIFXTALRES_16KCK_64MS 
+#
+#
+#
+#					 
+#####################################################################################################################
